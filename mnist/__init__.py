@@ -1,1 +1,0 @@
-from .facade import MnistClassifier  # noqa: F401

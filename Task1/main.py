@@ -3,8 +3,8 @@ from __future__ import annotations
 import argparse
 from sklearn.metrics import accuracy_score
 
-from mnist.data import load_mnist_numpy
-from mnist.facade import MnistClassifier
+from Task1.mnist.data import load_mnist_numpy
+from Task1.mnist.facade import MnistClassifier
 
 
 def main() -> None:
