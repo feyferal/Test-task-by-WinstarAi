@@ -24,7 +24,7 @@ def main() -> None:
     args = parser.parse_args()
 
     # --- Load MNIST dataset ---
-    X_trлain, y_train, X_val, y_val, X_test, y_test = load_mnist_numpy()
+    X_train, y_train, X_val, y_val, X_test, y_test = load_mnist_numpy()
 
     # --- Initialize the selected model ---
     if args.algo == "rf":
